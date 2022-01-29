@@ -5,3 +5,7 @@ spring:
     username: lqj123
     password: 123
     virtual-host: /lqj
+    #开启异步消息确认
+    publisher-confirm-type: correlated
+    #开启失败返回消息
+    publisher-returns: true
